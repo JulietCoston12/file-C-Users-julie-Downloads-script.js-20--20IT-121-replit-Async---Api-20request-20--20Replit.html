@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>5 day /3 hour forecast and data</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Weather forecast</h1>
+  <ul></ul>
+<script> 
+  
+       // fatch = fetch(http://api.openweathermap.org/data/2.5/forecast?q=Seattle&appid=9e1f7f3f2c4a5df4e035c40c71227aee);
+       // .then(response) => response.json()):
+       // .then(data) => console.log(data(list.city.name));
+       // simplifies asynchrouous programming data into a javascript object
+       // used for interacting with Apis to retreive and send data asynchrounously over the web.
+       // fatch is a promise that will be resolved with the data from the Api
+       // response.json() is a product that will be resolved with the data from the Api
+       // cosole.log is a promise that will be resolved with the data from the Api
+      
+ const kelvinToF = (value) => {
+   let fahrenheit = (((Number(value) - 273.15)*9)/5) + 32;
+         return fahrenheit.toFixed(2);
+    }
+      
+  let forecast_date = new Date(unix_timestamp * 1000);
+
+       fetch('http: //example.com/forecast.json')
+         .then((response) =>response.json());
+  return data.json();
+   .then((data) => console.log(data));
+ 
+     try {
+         throw new Error('This is an error')}
+         catch(error){
+           console.log(error.message);
+
+         }
+
+       // const kelvinToF = (value) =>
+        // vapi.openweathermap.org/data/2.5/forecast?q=Seattle&appid=9e1f7f3f2c4a5df4e035c40c71227aee);
+       let product = document.jquery("#product");
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
